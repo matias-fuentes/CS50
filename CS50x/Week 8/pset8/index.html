@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./styles/normalize.css">
+        <link rel="stylesheet" href="./styles/globals.css">
+        <link rel="stylesheet" href="./styles/header.css">
+        <link rel="stylesheet" href="./styles/gallery.css">
+        <link rel="stylesheet" href="./styles/about-me.css">
+        <link rel="stylesheet" href="./styles/career.css">
+        <link rel="stylesheet" href="./styles/technologies.css">
+        <link rel="stylesheet" href="./styles/footer.css">
+        <link rel="icon" href="./svgs/header/logo.svg">
+
+        <title>Biography</title>
+    </head>
+
+    <header class="header-container">
+        <div class="header-divs-container">
+            <!-- Mobile -->
+            <div class="dropdown-div">
+                <div class="dropdown-header-container">
+                    <img class="dropdown-logo" src="./svgs/header/dropdown-logo.svg" alt="Logo">
+                    <h1 class="borderless-title">Biography</h1>
+                </div>
+                <div class="personal-information-container">
+                    <div class="presentation-photo-container">
+                        <img class="presentation-photo" src="./images/presentation-photo.webp" alt="Presentation photo">
+                    </div>
+                    <div>
+                        <h2>Name:</h2>
+                        <h2 class="personal-information">Matías Fuentes</h2>
+                    </div>
+                    <div>
+                        <h2>Birth:</h2>
+                        <h2 class="personal-information">18th December, 2002</h2>
+                    </div>
+                    <div>
+                        <h2>Age:</h2>
+                        <h2 class="personal-information">18</h2>
+                    </div>
+                    <div>
+                        <h2>Address:</h2>
+                        <h2 class="personal-information">Sol de Mayo 30, Rosario</h2>
+                    </div>
+                </div>
+
+                <hr>
+                <div class="justified-settings">
+                    <h2>Dark Mode</h2>
+                    <label class="switch-button">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <hr>
+
+                <div class="navigation-container">
+                    <a href="#gallery">Gallery</a>
+                    <a href="#about-me">About Me</a>
+                    <a href="#career">Career</a>
+                    <a href="#technologies">Technologies</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="transparent-div"></div>
+
+            <!-- Desktop -->
+            <div class="header-elements-container">
+                <div class="menu-container">
+                    <img id="mode-menu" alt="Menu">
+                </div>
+                <a class="icon-container" href="./index.html">
+                    <img class="logo" src="./svgs/header/logo.svg" alt="Logo">
+                </a>
+                <nav id="navigation">
+                    <a href="#gallery">Gallery</a>
+                    <a href="#about-me">About Me</a>
+                    <a href="#career">Career</a>
+                    <a href="#technologies">Technologies</a>
+                </nav>
+                <div class="icon-container">
+                    <img id="dark-mode" alt="Dark mode">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <body>
+        <section class="gallery">
+            <!-- .anchor's styles are stored in globals -->
+            <div id="gallery" class="anchor"></div>
+            <div class="blurred-background"></div>
+            <div class="carousel-container">
+                <input class="arrow-properties arrow-left" type="image" src="./svgs/gallery/left-arrow.svg" alt="Arrow left">
+                <input class="arrow-properties arrow-right" type="image" src="./svgs/gallery/right-arrow.svg" alt="Arrow right">
+                <div class="images-carousel-container">
+                    <img alt="Photo 10">
+                </div>
+                <div class="images-carousel-container">
+                    <img alt="Photo 1">
+                </div>
+                <div class="images-carousel-container">
+                    <img alt="Photo 2">
+                </div>
+                <div class="images-carousel-container">
+                    <img alt="Photo 3">
+                </div>
+                <div class="images-carousel-container">
+                    <img alt="Photo 4">
+                </div>
+                <div class="images-carousel-container">
+                    <img alt="Photo 5">
+                </div>
+                <div class="images-carousel-container">
+                    <img alt="Photo 6">
+                </div>
+                <div class="images-carousel-container">
+                    <img alt="Photo 7">
+                </div>
+                <div class="images-carousel-container">
+                    <img alt="Photo 8">
+                </div>
+                <div class="images-carousel-container">
+                    <img alt="Photo 9">
+                </div>
+            </div>
+        </section>
+
+        <section class="about-me">
+            <!-- .anchor's styles are stored in globals -->
+            <div id="about-me" class="anchor"></div>
+            <div class="about-me-container">
+                <div class="about-me-margin">
+                    <img class="about-me-user" src="./svgs/AboutMe/user.svg" alt="User icon">
+                    <div class="title-margin">
+                        <h1>About Me</h1>
+                    </div>
+                    <!-- .subtitle-container's styles are stored in globals -->
+                    <div class="subtitle-container">
+                        <h2>Hello world, here Matías Fuentes</h2>
+                    </div>
+                    <p class="presentation">Hello! Nice to meet you! I present myself, I'm Matías, an 18-year-old Argentine Harvard student
+                    at Computer Science (27/4/2021 last updated), and THIS is part of one of my projects! On this occasion they have given us the challenge of making one
+                    of our first pages; An autobiography! But, without feeling entirely satisfied, I have decided to go a little further, in order to turn it into part
+                    of my portfolio! Like a kind of CV, but with style!</p>
+                    <div>
+                        <a class="hyperlink" href="https://www.edx.org/professional-certificate/harvardx-computer-science-for-web-programming">
+                            <p class="hyperlink-text">Study program</p>
+                            <img class="hyperlink-arrow" src="./svgs/AboutMe/blue-right-arrow.svg">
+                        </a>
+                    </div>
+                    <div>
+                        <p>Well, here are some things <span class="span-bold">about me:</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- .characteristics's styles are stored in globals -->
+            <div class="things-about-me">
+                <div class="characteristics">
+                    <img class="about-me-icon" src="./svgs/AboutMe/geek.svg" alt="Geek icon">
+                    <h2 class="about-me-title">Geek</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                    containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+                <div class="characteristics">
+                    <img class="about-me-icon" src="./svgs/AboutMe/big-dreamer.svg" alt="Big Dreamer icon">
+                    <h2 class="about-me-title">Big Dreamer</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                    containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+                <div class="characteristics">
+                    <img class="about-me-icon" src="./svgs/AboutMe/proactive.svg" alt="Proactive icon">
+                    <h2 class="about-me-title">Proactive</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                    containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+                <div class="characteristics">
+                    <img class="about-me-icon" src="./svgs/AboutMe/competitive.svg" alt="Competitive icon">
+                    <h2 class="about-me-title">Competitive</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                    containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+                <div class="characteristics">
+                    <img class="about-me-icon" src="./svgs/AboutMe/self-improvement.svg" alt="Self-Improvement icon">
+                    <h2 class="about-me-title">Self-Improvement</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                    containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+                <div class="characteristics">
+                    <img class="about-me-icon" src="./svgs/AboutMe/rational.svg" alt="Rational icon">
+                    <h2 class="about-me-title">Rational</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                    containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="career">
+            <!-- .anchor & .text-center's styles are stored in globals -->
+            <div id="career" class="anchor"></div>
+            <div class="text-center">
+                <h1>Career</h1>
+            </div>
+            <div class="careers">
+                <img src="./images/career/high-school-certificate.webp">
+                <div class="description-container">
+                    <!-- .subtitle-container's styles are stored in globals -->
+                    <div class="subtitle-container">
+                        <h2>Bachelor of Economy and Administration at Santo Domingo Savio</h2>
+                    </div>
+                    <p class="paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                    containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <!-- .characteristics's styles are stored in globals -->
+                    <div class="characteristics-container">
+                        <div class="characteristics">
+                            <div>
+                                <img class="career-icons" src="./svgs/career/hourglass.svg" alt="Hourglass">
+                            </div>
+                            <div>
+                                <h3>5 years</h3>
+                            </div>
+                        </div>
+                        <div class="characteristics">
+                            <div>
+                                <img class="career-icons" src="./svgs/career/map-pin.svg" alt="Map pin">
+                            </div>
+                            <div>
+                                <h3>Don Bosco 10, Rosario, Santa Fe, Argentina</h3>
+                            </div>
+                        </div>
+                        <div class="characteristics">
+                            <div>
+                                <img class="career-icons" src="./svgs/career/graduation-cap.svg" alt="Graduation cap">
+                            </div>
+                            <div>
+                                <h3>Graduated</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="careers">
+                <img class="mobile-image" src="./images/career/bigben-english-institute.webp">
+                <div class="half-page left-containers">
+                    <div class="description-container">
+                        <div>
+                            <h2>English at BigBen English Institute</h2>
+                        </div>
+                        <p class="paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                        containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <!-- .characteristics's styles are stored in globals -->
+                        <div class="characteristics-container">
+                            <div class="characteristics">
+                                <div>
+                                    <img class="career-icons" src="./svgs/career/hourglass.svg" alt="Hourglass">
+                                </div>
+                                <div>
+                                    <h3>5 years</h3>
+                                </div>
+                            </div>
+                            <div class="characteristics">
+                                <div>
+                                    <img class="career-icons" src="./svgs/career/map-pin.svg" alt="Map pin">
+                                </div>
+                                <div>
+                                    <h3>Díaz Vélez 236, Rosario, Santa Fe, Argentina</h3>
+                                </div>
+                            </div>
+                            <div class="characteristics">
+                                <div>
+                                    <img class="career-icons" src="./svgs/career/graduation-cap.svg" alt="Graduation cap">
+                                </div>
+                                <div>
+                                    <h3>Not graduated (3/5 years done)</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img class="desktop-image" src="./images/career/bigben-english-institute.webp">
+            </div>
+            <hr>
+            <div class="careers career-borderless">
+                <img src="./images/career/harvardx-professional-certificate.webp">
+                <div class="half-page">
+                    <div class="description-container">
+                        <div>
+                            <h2>Professional certificate of Computer Science for Web Programming at Harvard University</h2>
+                        </div>
+                        <p class="paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                        containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <!-- .characteristics's styles are stored in globals -->
+                        <div class="characteristics-container">
+                            <div class="characteristics">
+                                <div>
+                                    <img class="career-icons" src="./svgs/career/hourglass.svg" alt="Hourglass">
+                                </div>
+                                <div class="flex-column">
+                                    <h3>2 years</h3>
+                                </div>
+                            </div>
+                            <div class="characteristics">
+                                <div>
+                                    <img class="career-icons" src="./svgs/career/map-pin.svg" alt="Map pin">
+                                </div>
+                                <div>
+                                    <h3>Wherever you want (Online)</h3>
+                                </div>
+                            </div>
+                            <div class="characteristics">
+                                <div>
+                                    <img class="career-icons" src="./svgs/career/graduation-cap.svg" alt="Graduation cap">
+                                </div>
+                                <div>
+                                    <h3>Graduated</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="text-center">
+                    <h2>Plans for the future</h2>
+                </div>
+                <div class="text-center">
+                    <h3>There is so much I would love to learn... That I don't know where to start!</h3>
+                </div>
+                <!-- .text-center's styles are stored in global -->
+                <div class="things-about-me">
+                    <div class="characteristics">
+                        <img class="career-technologies" src="./images/career/python.webp">
+                        <div>
+                            <h2>Python</h2>
+                        </div>
+                        <div id="career-dropdowns">
+                            <h3>Artificial Intelligence</h3>
+                            <img id="down-arrow" alt="Down arrow">
+                        </div>
+                        <div id="dropdown-container">
+                            <img src="./images/career/harvard-logo.webp">
+                            <ul class="unordered-lists">
+                                <li><span class="dot one-line-dot"></span>Graph search algorithms</li>
+                                <li><span class="dot one-line-dot"></span>Reinforcement learning</li>
+                                <li><span class="dot one-line-dot"></span>Machine learning</li>
+                                <li><span class="dot one-line-dot"></span>Artificial intelligence principles</li>
+                                <li><span class="dot one-line-dot"></span>How to design intelligent systems</li>
+                                <li><span class="dot one-line-dot"></span>How to use AI in Python programs</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="characteristics">
+                        <img class="career-technologies" src="./images/career/react.webp">
+                        <div>
+                            <h2>React</h2>
+                        </div>
+                        <div id="career-dropdowns">
+                            <h3>Mobile Apps</h3>
+                            <img id="down-arrow" alt="Down arrow">
+                        </div>
+                        <div id="dropdown-container">
+                            <img src="./images/career/harvard-logo.webp">
+                            <ul class="unordered-lists">
+                                <li><span class="dot two-lines-dot"></span>How to develop your own mobile app using JavaScript, JSX, ES6, React Native</li>
+                                <li><span class="dot two-lines-dot"></span>How to master components, props, state, style, views, user input, components, and debugging</li>
+                                <li><span class="dot two-lines-dot"></span>How to implement an app entirely of your own design</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="characteristics">
+                        <img class="career-technologies" src="./images/career/r.webp">
+                        <div>
+                            <h2>R</h2>
+                        </div>
+                        <div id="career-dropdowns">
+                            <h3>Data Science</h3>
+                            <img id="down-arrow" alt="Down arrow">
+                        </div>
+                        <div id="dropdown-container">
+                            <img src="./images/career/harvard-logo.webp">
+                            <ul class="unordered-lists">
+                                <li><span class="dot one-line-dot"></span>Fundamental R programming skills</li>
+                                <li><span class="dot two-lines-dot"></span>Statistical concepts such as probability, inference, and modeling and how to apply them in practice</li>
+                                <li><span class="dot three-lines-dot"></span>Gain experience with the tidyverse, including data visualization with ggplot2 and data wrangling with dplyr</li>
+                                <li><span class="dot three-lines-dot"></span>Become familiar with essential tools for practicing data scientists such as Unix/Linux, git and GitHub, and RStudio</li>
+                                <li><span class="dot one-line-dot"></span>Implement machine learning algorithms</li>
+                                <li><span class="dot three-lines-dot"></span>In-depth knowledge of fundamental data science concepts through motivating real-world case studies</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section>
+            <!-- .anchor & .text-center's styles are stored in globals -->
+            <div id="technologies" class="anchor"></div>
+            <div class="text-center">
+                <h1>Technologies</h1>
+            </div>
+            <div class="technologies-container">
+                <div class="technology-container">
+                    <div class="front-end-langs-container">
+                        <img src="./images/technologies/html-css-js.webp">
+                        <img src="./images/technologies/sass.webp">
+                    </div>
+                    <div>
+                        <h2>HTML, CSS, JS & SASS</h2>
+                        <hr>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <div class="button-container">
+                            <h2>Projects</h2>
+                            <div>
+                                <a class="hyperlink" href="https://github.com/Matias-Damian-Fuentes?tab=repositories">
+                                    <img class="hyperlink-arrow" src="./svgs/technologies/bold-right-arrow.svg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="technology-container">
+                    <div>
+                        <img src="./images/technologies/c.webp">
+                    </div>
+                    <div>
+                        <h2>C</h2>
+                        <hr>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <div class="button-container">
+                            <h2>Projects</h2>
+                            <div>
+                                <a class="hyperlink" href="https://github.com/Matias-Damian-Fuentes?tab=repositories">
+                                    <img class="hyperlink-arrow" src="./svgs/technologies/bold-right-arrow.svg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="technology-container">
+                    <div>
+                        <img src="./images/technologies/python.webp">
+                    </div>
+                    <div>
+                        <h2>Python</h2>
+                        <hr>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <div class="button-container">
+                            <h2>Projects</h2>
+                            <div>
+                                <a class="hyperlink" href="https://github.com/Matias-Damian-Fuentes?tab=repositories">
+                                    <img class="hyperlink-arrow" src="./svgs/technologies/bold-right-arrow.svg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="technology-container">
+                    <div>
+                        <img src="./images/technologies/mysql.webp">
+                    </div>
+                    <div>
+                        <h2>MySQL</h2>
+                        <hr>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <div class="button-container">
+                            <h2>Projects</h2>
+                            <div>
+                                <a class="hyperlink" href="https://github.com/Matias-Damian-Fuentes?tab=repositories">
+                                    <img class="hyperlink-arrow" src="./svgs/technologies/bold-right-arrow.svg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="technology-container">
+                    <div>
+                        <img src="./images/technologies/php.webp">
+                    </div>
+                    <div>
+                        <h2>PHP</h2>
+                        <hr>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <div class="button-container">
+                            <h2>Projects</h2>
+                            <div>
+                                <a class="hyperlink" href="https://github.com/Matias-Damian-Fuentes?tab=repositories">
+                                    <img class="hyperlink-arrow" src="./svgs/technologies/bold-right-arrow.svg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <div>
+                <div class="footer-title-container">
+                    <div>
+                        <h2>Contact</h2>
+                        <div>
+                            <div class="contact-means">
+                                <img src="./svgs/footer/email.svg">
+                                <h3>MatiasDamianFuentes@outlook.es</h3>
+                            </div>
+                            <div class="contact-means">
+                                <img src="./svgs/footer/phone.svg">
+                                <h3>+54 9 341 675-4004</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h2>Social Medias</h2>
+                        <nav class="footer-nav">
+                            <a href="https://github.com/Matias-Damian-Fuentes?tab=repositories">GitHub</a>
+                            <a href="https://www.linkedin.com/in/mat%C3%ADas-fuentes-251242214/">LinkedIn</a>
+                        </nav>
+                    </div>
+                    <div>
+                        <img class="footer-logo" src="./svgs/header/logo.svg">
+                    </div>
+                </div>
+                <hr>
+                <div class="copyright-container">
+                    <p>Copyright &copy 2021. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+    <script src="./scripts/intersectionObserver.js"></script>
+    <script src="./scripts/color-scheme.js"></script>
+    <script src="./scripts/carousel.js"></script>
+    <script src="./scripts/dropdown-menus.js"></script>
+</html>
