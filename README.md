@@ -10,17 +10,17 @@ And not only did I learn frontend code, but also, backend code! With SQL and Fla
 
 ### About this career
 
--   A broad and robust understanding of computer science and programming
--   How to think algorithmically and solve programming problems efficiently
+-   A broad and robust understanding of computer science and programming.
+-   How to think algorithmically and solve programming problems efficiently.
 -   Concepts like abstraction, algorithms, data structures, encapsulation, resource management, security, software
-    engineering, and web development
--   Familiarity in a number of languages, including C, Python, SQL, and JavaScript plus CSS and HTML
--   How to engage with a vibrant community of like-minded learners from all levels of experience
--   How to develop and present a final programming project to your peers
+    engineering, and web development.
+-   Familiarity in a number of languages, including C, Python, SQL, and JavaScript plus CSS and HTML.
+-   How to engage with a vibrant community of like-minded learners from all levels of experience.
+-   How to develop and present a final programming project to your peers.
 -   Database design, scalability, security, and user experience. Through hands-on projects, you'll learn to write and use APIs, create interactive UIs, and leverage cloud services like GitHub and Heroku.
 
 "By course's end, you'll emerge with knowledge and experience in principles, languages, and tools that empower you to
-design and deploy applications on the Internet."
+design and deploy applications on the Internet".
 
 CS50 in a nutshell, was a 180 degree turn in my life.
 
