@@ -2,15 +2,11 @@
 
 ## HarvardX's Professional Certificate at Computer Science (CS50)
 
-CS50 it's a Harvard University study program. An online and a free one. With notes, slides, source code, videos, labs,
-zoom videoclasses, and much more, CS50 it's the perfect place to grow, and learn.
+CS50 it's a Harvard University study program. An online and a free one. With notes, slides, source code, videos, labs, zoom videoclasses, and much more, CS50 it's the perfect place to grow, and learn.
 
-And here not just I've learned how to develop a webpage. Also, I learned a lot about programming in general, and its
-fundamental basis. Since low-level code with C with memory, data structures, addresses, pointers, etc, to high-level
-code, with Python, Flask, and even React!
+And here I not only learned how to develop a webpage, but also, I learned a lot about programming in general and its fundamental basis. Since low-level code with C lang with memory, data structures, addresses, pointers, etc, to high-level code, with Python with Flask, and even React!
 
-And not only did I learn front-end code, but also, back-end code! With SQL and Flask with forms, POST methods, sessions,
-authentication, etc.
+And not only did I learn frontend code, but also, backend code! With SQL and Flask with forms, POST methods, sessions, authentication, and a lot more!
 
 ### About this career
 
