@@ -2,13 +2,13 @@
 
 ## URLs
 
--   WikiFood: https://cs50-wikifood.herokuapp.com/
+-   WikiFood: https://cs50-wikifood.vercel.app/
 
--   Fineer: https://fineer.herokuapp.com/login
+-   Fineer: https://fineer.vercel.app/register
 
--   Biography: https://matias-fuentes.netlify.app/
+-   Biography: https://matiasfuentes.netlify.app/
 
--   Animal Trivia: https://animal-trivia.netlify.app/
+-   Animal Trivia: https://animaltrivia.netlify.app/
 
 ## Repositories
 
@@ -18,7 +18,7 @@
 
 -   Biography: https://github.com/matias-fuentes/Biography
 
--   Animal Trivia: https://github.com/matias-fuentes/Animal-Trivia
+-   Animal Trivia: https://github.com/matias-fuentes/AnimalTrivia
 
 # Study program
 
