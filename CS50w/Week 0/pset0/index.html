@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <title>Google Images</title>
+    <title>Google</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
@@ -20,7 +20,7 @@
         <nav>
             <ul id="nav_bar">
                 <li class="nav-links" id="gmail">
-                    <a href="/">Search</a>
+                    <a href="/image-search.html">Images</a>
                 </li>
                 <li class="nav-links">
                     <a href="/advanced-search.html">Advanced</a>
@@ -31,7 +31,7 @@
 
     <!-- GOOGLE IMG -->
     <div class="google">
-        <a href="/image-search.html" id="google_logo"
+        <a href="#" id="google_logo"
             ><img
                 class="google-logo"
                 src="/google.png"
@@ -43,17 +43,26 @@
     <div class="form-container">
         <form action="https://www.google.com/search" class="form">
             <div class="search-bar-container">
-                <input type="hidden" name="tbm" value="isch" />
                 <input
                     type="text"
-                    name="q"
                     id="form-search"
+                    name="q"
                     placeholder="Search Google or type URL"
                 />
                 <input class="search" type="image" src="/search.svg" />
             </div>
+
+            <!-- BUTTONS -->
+            <div class="buttons">
+                <input type="submit" value="Google Search" id="google_search" />
+                <input
+                    type="submit"
+                    value="I'm Feeling Lucky"
+                    id="im_feeling_lucky"
+                    name="btnI"
+                />
+            </div>
         </form>
-        <div class="buttons"></div>
     </div>
 
     <!-- FOOTER -->

@@ -1,7 +1,14 @@
-[Google Clone](https://cs50.harvard.edu/web/2020/projects/0/search/#search)
-=====================================================================
+# [Problem set 0: Search](https://cs50.harvard.edu/web/2020/projects/0/search/#search)
 
 Design a front-end for Google Search, Google Image Search, and Google Advanced Search.
+
+WEBPAGE: https://cs50-googleclone.netlify.app
+
+## Description
+
+Experience the familiarity of the world's most popular search engine with Google Clone. This identical replica of Google's search engine brings you the same powerful search capabilities, intuitive interface, and comprehensive results. Conduct searches, access news, images, and videos, and explore the vastness of the web, all within the familiar Google interface. With Google Clone, you can enjoy the convenience and reliability of the renowned search engine you know and love.
+
+![Google Clone preview](https://github.com/matias-fuentes/Google-Clone/assets/70669575/f58d3a36-fd93-4c7b-af0b-71cf04f56ab6)
 
 ## Background
 
